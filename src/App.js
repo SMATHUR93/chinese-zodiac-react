@@ -8,6 +8,9 @@ import StartForm from './startForm/startForm';
 // import NavigationBar from './navigationBar/navigationBar';
 // import Content from './content/content';
 
+const symbols = ['Boar','Dog','Dragon','Goat','Horse','Monkey','Ox','Rabbit','Rat','Rooster','Snake','Tiger'];
+const symbolsOrdered = ['Rat','Ox','Tiger','Rabbit','Dragon','Snake','Horse','Goat','Monkey','Rooster','Dog','Boar']
+
 class App extends Component {
 	render() {
 		return (
@@ -20,7 +23,7 @@ class App extends Component {
 							<p>Resize this responsive page to see the effect!</p> 
 							<StartForm></StartForm>
 						</div>
-						<DataCarousel></DataCarousel>
+						<DataCarousel symbols={symbols}></DataCarousel>
 					</div>
 				</main>
 				<Footer></Footer>

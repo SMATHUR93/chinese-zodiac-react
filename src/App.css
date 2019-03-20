@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.bgImage{
+  background-image: url(./assets/images/02.jpg);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+code {
+  font-size: 80%;
+}
+
+html, body, #root, #root>div {
+  height: 100%
+}
+
+.Boar{
+  background-image: url(./assets/images/Boar.svg);
+}
+.Dog{
+  background-image: url(./assets/images/Dog.svg);
+}
+.Dragon{
+  background-image: url(./assets/images/Dragon.svg);
+}
+.Goat{
+  background-image: url(./assets/images/Goat.svg);
+}
+.Horse{
+  background-image: url(./assets/images/Horse.svg);
+}
+.Monkey{
+  background-image: url(./assets/images/Monkey.svg);
+}
+.Ox{
+  background-image: url(./assets/images/Ox.svg);
+}
+.Rabbit{
+  background-image: url(./assets/images/Rabbit.svg);
+}
+.Rat{
+  background-image: url(./assets/images/Rat.svg);
+}
+.Rooster{
+  background-image: url(./assets/images/Rooster.svg);
+}
+.Snake{
+  background-image: url(./assets/images/Snake.svg);
+}
+.Tiger{
+  background-image: url(./assets/images/Tiger.svg);
+}
